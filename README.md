@@ -1,24 +1,16 @@
-# README
+# Rails 7 Devise Template
+A template available for public use to launch a new Rails 7 app with devise pre-configured. This setup presumes you want to authenticate users under the name `users`, which seems like a reasonable assumption for most apps.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo is a companion to the article [Devise Auth Setup in Rails 7](https://medium.com/@nickfrancisci/devise-auth-setup-in-rails-7-44240aaed4be). 
 
-Things you may want to cover:
+## Setup
+Fork your own project from the template. Clone it. Then, all you have to do to get started is:
+```
+bundle install
+rake db:migrate
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+And then, to run the server
+```
+rails s
+```
